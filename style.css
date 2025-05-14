@@ -29,10 +29,10 @@ ul {
 .first {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #1F2937;
-    padding-left: 200px;
     padding-top: 20px;
-    gap: 30px;
+    gap: 100px;
     padding-bottom: 70px;
 }
 
@@ -40,6 +40,10 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
 }
 
 .hero {
@@ -173,10 +177,6 @@ img {
     padding: 5px 15px 5px 15px;
     border-radius: 10px;
     font-size: 80%
-}
-
-.copyright:after {
-    content: ' \00A9 '
 }
 
 .footer {
