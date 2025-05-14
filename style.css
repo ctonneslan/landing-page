@@ -137,3 +137,49 @@ img {
     font-weight: 900;
 }
 
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 80px 40px 80px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.bottom {
+    font-size: 80%;
+    color: rgb(208, 212, 217)
+}
+
+.fourth .call button {
+    color: white;
+    background-color: #3882F6;
+    border: 1px solid white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 10px;
+    font-size: 80%
+}
+
+.copyright:after {
+    content: ' \00A9 '
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1F2937;
+    color: white;
+}
