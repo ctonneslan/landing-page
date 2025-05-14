@@ -62,10 +62,14 @@ img {
     padding-right: 15px;
     border-radius: 5px;
     border-color: #3882F6;
+    align-self: flex-start;
 }
 
 .left-content {
+    display: flex;
+    flex-direction: column;
     max-width: 450px;
+    gap: 20px
 }
 
 .placeholder {
@@ -92,7 +96,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .pair {
